@@ -1,5 +1,5 @@
 📝 Todo Application:
-    *A simple and user-friendly Todo List Web Application built using HTML, CSS, and JavaScript.
+    A simple and user-friendly Todo List Web Application built using HTML, CSS, and JavaScript.
     This app helps users manage daily tasks efficiently by allowing them to add, delete, and organize their todos.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
