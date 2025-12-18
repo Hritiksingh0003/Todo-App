@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class=" navbar">
+      <div class="logo">
+        <a href="#"><i class="fas fa-check-square"></i></a></div>
+        <div class="name"><a href="#"> TODO</a>
+           </div>
+    </div>
+    <div class="taskmanager">
+      <div class="text">    
+        <a class="upper" href="#">Task Done</a><br>
+        <a class="lower" href="#">Keep it up</a>
+       </div> 
+       <div class="task-circle">
+              <span id="task-progress">0/0</span>
+       </div>
+    </div> 
+    <div class="search_box">
+              <form action ="/search" method="get">
+                <input type="search" name="q" placeholder="     Write your next task" id="takeInput">
+               
+                 <button type="submit"><i class ="fas fa-plus"></i></button> 
+            
+                </form>
+    </div>
+    
+    <div id="taskList">
+    
+         </div>
+    <script src="index.js"></script>
+</body>
+</html>
